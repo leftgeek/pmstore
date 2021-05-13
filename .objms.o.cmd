@@ -1,1 +1,0 @@
-cmd_fs/objms-hugetlb/objms.o := ld -m elf_x86_64   -r -o fs/objms-hugetlb/objms.o fs/objms-hugetlb/balloc.o fs/objms-hugetlb/inode.o fs/objms-hugetlb/super.o fs/objms-hugetlb/journal-tid.o fs/objms-hugetlb/bbuild.o fs/objms-hugetlb/obj.o fs/objms-hugetlb/xattr-new.o fs/objms-hugetlb/mmap.o fs/objms-hugetlb/olock.o 
