@@ -13,4 +13,5 @@ On the other hand, file system itself also emploies techniques such as journalin
 As a result, file system-based software suffers from "double journaling" overheads that can affect I/O performance significantly.
 
 PMStore removes file management overhead by allowing applications to bypass the file management component and directly communicate with storage management component.
+
 PMStore further removes double journaling overheads by providing transactional semantics in storage management, which is the transactional object storage interface.
